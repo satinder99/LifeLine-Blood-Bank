@@ -1,0 +1,57 @@
+#head
+{
+	background-color:#fff;
+	height:150px;
+	width:100%;
+
+	padding-top:25px;
+	margin-left:50px;
+}
+.heading
+{
+	float:left;
+}
+.jumbotron
+{
+	height:180px;
+	background-color:green;
+}
+.foot
+{
+	position:fixed;
+	border:2px solid red;
+	height:100px;
+	width:100%;
+	padding-top:20px;
+}
+#notRequire
+{
+	height:320px;
+	width:350px;
+	left:50%;
+	top:50%;
+/*	margin-left:-175px;
+	margin-top:-160px;
+	border:2px solid red
+*/
+}
+#main
+{
+	height:320px;
+	width:2000px;
+/*	border:2px solid red;
+*/	color:red;
+	padding-top:0px;
+	padding-left:50px;
+}
+.needdonbt
+{
+	margin-top:0px;
+	margin-left:50px;
+	height:150px;
+	width:150px;
+}
+.navbar1
+{
+	padding-left:350px;
+}

@@ -1,0 +1,28 @@
+<div>
+	<table border='2px' class='table'>
+		<thead>
+			<th>NAME</th>
+			<th>bLOOD_GRP</th>
+			<th>E-MAIL</th>
+			<th>ADDRESS</th>
+			<th>DISABILITIES</th>
+			<th>PHONE</th>
+			<th>GENDER</th>
+		
+		</thead>
+		<tr ng-repeat='m in members'>
+			<td>
+				{{m.name}}
+			</td>
+			<td>{{m.bgrp}}</td>
+			<td>{{m.email}}</td>
+			<td>{{m.address}}</td>
+			<td>{{m.disabities}}</td>
+			<td>{{m.phone}}</td>
+			<td>{{m.gender}}</td>
+
+		</tr>
+	</table>
+	<br>
+	<button style='width:170px' onclick="window.location.href='http://localhost:3000/#!admin/index'">Back </button>
+</div>

@@ -1,0 +1,19 @@
+<div>
+	<table border='2px' class='table'>
+		<thead>
+			<th>NAME</td>
+			<th>PHONE</td>
+			<th>E-MAIL</td>
+			<th>CITY</td
+			><th>MESSAGE</td>
+		</thead>
+		<tr ng-repeat='fb in feedBacks'>
+				<td>{{fb.name}}</td>		
+				<td>{{fb.phone}}</td>
+				<td>{{fb.email}}</td>
+				<td>{{fb.city}}</td>
+				<td>{{fb.message}}</td>
+		</tr>
+	</table>
+	<button style='width:150px' onclick="window.location.href='http://localhost:3000/#!admin/index'">Back</button>
+</div>

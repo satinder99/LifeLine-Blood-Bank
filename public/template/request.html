@@ -1,0 +1,99 @@
+<link rel='stylesheet' href='/stylesheets/request.css'>
+<div id='div1'>
+	 <img id='pic1' src='/images/request.jpg' class='MM'>
+
+	<form method='post' action='request' class='MM'>
+		<table id='tbl1' class='tbl'>
+			<tr>
+				<td>
+					<label>Enter your name : </label>
+				</td>
+				<td>
+					<input type='text' placeholder='name' name='myName' required>	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter your Hospital Name : </label>	
+				</td>
+				<td>
+					<input type='text'  placeholder='your hospital name' name='myHospital'>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter your gender : </label>
+				</td>
+				<td>
+					<select class='age' name='myGender'>
+						<option>Male</option>
+						<option>Female</option>
+						<option>Others</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Which bloodGroup you required : </label>
+				</td>
+				<td>
+					<select class='age' name='myBloodGroup'>
+						<option>O+</option>
+						<option>A+</option>
+						<option>B+</option>
+						<option>AB+</option>
+						<option>O-</option>
+						<option>A-</option>
+						<option>B-</option>
+						<option>AB-</option>
+
+					</select>
+			
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter your contact number :</label> 
+				</td>
+				<td>
+					<input type='tel' maxlength='10' pattern="[1-9]{1}[0-9]{9}" name='myPhone' placeholder='your mobile number'>
+				</td>
+
+
+			</tr>
+
+			<tr>
+				<td>
+					<label>Enter your Email : </label>
+				</td>
+				<td>
+					<input type='email' placeholder='mailing address' name='myEmail' required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Amount of blood required : </label>
+				</td>
+				<td>
+					<input type='text' placeholder='number of bottels' name='myBottles'>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter your address : </label>
+				</td>
+				<td>
+					<input type='text' placeholder='home address' name='myAddress'>
+				</td>
+			</tr>
+			<tr>
+				<td colspan='2'>
+					<input type='submit' value='submit your response'>
+				</td>
+			</tr>
+		</table>
+		<div class='tbl'>
+			<p id='mypara'>Request page</p>
+		</div>
+	</form>
+</div>
